@@ -1,0 +1,38 @@
+<!DOCTYPE html><html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería Dinámica</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Galería de imágenes</h1>
+
+
+<form id="formulario">
+    <input
+        type="text"
+        id="imagenURL"
+        placeholder="URL de la imagen"
+        required
+    >
+
+
+    <input
+        type="text"
+        id="pieFoto"
+        placeholder="Pie de foto"
+        required
+    >
+
+
+    <button type="button" onclick="agregaImagen()">Agregar imagen</button>
+</form>
+
+
+<section id="galeriaImagenes"></section>
+
+
+<script src="script.js"></script>
+</body>
+</html>
